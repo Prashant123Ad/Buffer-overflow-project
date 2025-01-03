@@ -44,12 +44,7 @@ This project demonstrates a buffer overflow vulnerability in a C program. It inc
    gdb ./login
    ```
 
-2. Find the offset for buffer overflow using:
-   ```gdb
-   run $(python3 -c 'print("A" * 100)')
-   ```
-
-3. Overwrite the return address and execute the payload.
+2. Overwrite the return address.
 
 ## Defense Techniques
 
